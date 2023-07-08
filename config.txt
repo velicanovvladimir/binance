@@ -1,0 +1,52 @@
+pip3 --version
+python -V
+
+Установить requests
+pip3 install requests
+
+Установить pymysql
+pip3 install pymysql
+
+Установать beautifulsoup
+pip3 install beautifulsoup4
+
+Консольные команды
+http://itman.in/ssh-i-linux-konsol-poleznye-komandy/
+[Ctrl]c Убить текущий процесс. в консоли
+
+Список Процессов Linux с Помощью Командной Строки
+https://www.hostinger.ru/rukovodstva/kak-uznat-spisok-protsessov-linux
+ps -ef – отобразит список процессов, которые запущены прямо сейчас
+
+Запуска скрипта в фоне
+nohup python parser.py &
+
+Убить процесс
+kill 1277
+
+Вывод списка процессов
+ps -ef
+
+БД
+host = "localhost"
+user = "twitter"
+passwd = "7777777mv!"
+db = "twitter"
+
+//-------------------------------------------------------------------------------------------------
+Установка Yii2
+composer create-project --prefer-dist yiisoft/yii2-app-basic admin
+
+БД
+host = "localhost"
+user = "twitter"
+passwd = "7777777mv!"
+db = "twitter"
+//-------------------------------------------------------------------------------------------------
+Имена контроллеров
+actionHistory_buy ; запрос site/history_buy
+
+Имена классов должны совпадать с именами классов
+History_buy-history_buy
+
+
